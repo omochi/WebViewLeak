@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6715D0616F34FFD0008AF88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6715D0516F34FFD0008AF88 /* UIKit.framework */; };
+		D6715D0816F34FFD0008AF88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6715D0716F34FFD0008AF88 /* Foundation.framework */; };
+		D6715D0A16F34FFD0008AF88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6715D0916F34FFD0008AF88 /* CoreGraphics.framework */; };
+		D6715D1016F34FFD0008AF88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6715D0E16F34FFD0008AF88 /* InfoPlist.strings */; };
+		D6715D1216F34FFD0008AF88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6715D1116F34FFD0008AF88 /* main.m */; };
+		D6715D1616F34FFD0008AF88 /* WVLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6715D1516F34FFD0008AF88 /* WVLAppDelegate.m */; };
+		D6715D1816F34FFD0008AF88 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D6715D1716F34FFD0008AF88 /* Default.png */; };
+		D6715D1A16F34FFD0008AF88 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6715D1916F34FFD0008AF88 /* Default@2x.png */; };
+		D6715D1C16F34FFD0008AF88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6715D1B16F34FFD0008AF88 /* Default-568h@2x.png */; };
+		D6715D1F16F34FFD0008AF88 /* WVLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6715D1E16F34FFD0008AF88 /* WVLViewController.m */; };
+		D6715D2216F34FFD0008AF88 /* WVLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6715D2016F34FFD0008AF88 /* WVLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6715D0216F34FFD0008AF88 /* WebViewLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6715D0516F34FFD0008AF88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6715D0716F34FFD0008AF88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6715D0916F34FFD0008AF88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6715D0D16F34FFD0008AF88 /* WebViewLeak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebViewLeak-Info.plist"; sourceTree = "<group>"; };
+		D6715D0F16F34FFD0008AF88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6715D1116F34FFD0008AF88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6715D1316F34FFD0008AF88 /* WebViewLeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewLeak-Prefix.pch"; sourceTree = "<group>"; };
+		D6715D1416F34FFD0008AF88 /* WVLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVLAppDelegate.h; sourceTree = "<group>"; };
+		D6715D1516F34FFD0008AF88 /* WVLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVLAppDelegate.m; sourceTree = "<group>"; };
+		D6715D1716F34FFD0008AF88 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D6715D1916F34FFD0008AF88 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D6715D1B16F34FFD0008AF88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D6715D1D16F34FFD0008AF88 /* WVLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WVLViewController.h; sourceTree = "<group>"; };
+		D6715D1E16F34FFD0008AF88 /* WVLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVLViewController.m; sourceTree = "<group>"; };
+		D6715D2116F34FFD0008AF88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WVLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6715CFF16F34FFD0008AF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6715D0616F34FFD0008AF88 /* UIKit.framework in Frameworks */,
+				D6715D0816F34FFD0008AF88 /* Foundation.framework in Frameworks */,
+				D6715D0A16F34FFD0008AF88 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6715CF916F34FFD0008AF88 = {
+			isa = PBXGroup;
+			children = (
+				D6715D0B16F34FFD0008AF88 /* WebViewLeak */,
+				D6715D0416F34FFD0008AF88 /* Frameworks */,
+				D6715D0316F34FFD0008AF88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6715D0316F34FFD0008AF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6715D0216F34FFD0008AF88 /* WebViewLeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6715D0416F34FFD0008AF88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6715D0516F34FFD0008AF88 /* UIKit.framework */,
+				D6715D0716F34FFD0008AF88 /* Foundation.framework */,
+				D6715D0916F34FFD0008AF88 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6715D0B16F34FFD0008AF88 /* WebViewLeak */ = {
+			isa = PBXGroup;
+			children = (
+				D6715D1416F34FFD0008AF88 /* WVLAppDelegate.h */,
+				D6715D1516F34FFD0008AF88 /* WVLAppDelegate.m */,
+				D6715D1D16F34FFD0008AF88 /* WVLViewController.h */,
+				D6715D1E16F34FFD0008AF88 /* WVLViewController.m */,
+				D6715D2016F34FFD0008AF88 /* WVLViewController.xib */,
+				D6715D0C16F34FFD0008AF88 /* Supporting Files */,
+			);
+			path = WebViewLeak;
+			sourceTree = "<group>";
+		};
+		D6715D0C16F34FFD0008AF88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6715D0D16F34FFD0008AF88 /* WebViewLeak-Info.plist */,
+				D6715D0E16F34FFD0008AF88 /* InfoPlist.strings */,
+				D6715D1116F34FFD0008AF88 /* main.m */,
+				D6715D1316F34FFD0008AF88 /* WebViewLeak-Prefix.pch */,
+				D6715D1716F34FFD0008AF88 /* Default.png */,
+				D6715D1916F34FFD0008AF88 /* Default@2x.png */,
+				D6715D1B16F34FFD0008AF88 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6715D0116F34FFD0008AF88 /* WebViewLeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6715D2516F34FFD0008AF88 /* Build configuration list for PBXNativeTarget "WebViewLeak" */;
+			buildPhases = (
+				D6715CFE16F34FFD0008AF88 /* Sources */,
+				D6715CFF16F34FFD0008AF88 /* Frameworks */,
+				D6715D0016F34FFD0008AF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewLeak;
+			productName = WebViewLeak;
+			productReference = D6715D0216F34FFD0008AF88 /* WebViewLeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6715CFA16F34FFD0008AF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WVL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Qoncept, Inc";
+			};
+			buildConfigurationList = D6715CFD16F34FFD0008AF88 /* Build configuration list for PBXProject "WebViewLeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6715CF916F34FFD0008AF88;
+			productRefGroup = D6715D0316F34FFD0008AF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6715D0116F34FFD0008AF88 /* WebViewLeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6715D0016F34FFD0008AF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6715D1016F34FFD0008AF88 /* InfoPlist.strings in Resources */,
+				D6715D1816F34FFD0008AF88 /* Default.png in Resources */,
+				D6715D1A16F34FFD0008AF88 /* Default@2x.png in Resources */,
+				D6715D1C16F34FFD0008AF88 /* Default-568h@2x.png in Resources */,
+				D6715D2216F34FFD0008AF88 /* WVLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6715CFE16F34FFD0008AF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6715D1216F34FFD0008AF88 /* main.m in Sources */,
+				D6715D1616F34FFD0008AF88 /* WVLAppDelegate.m in Sources */,
+				D6715D1F16F34FFD0008AF88 /* WVLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6715D0E16F34FFD0008AF88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6715D0F16F34FFD0008AF88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6715D2016F34FFD0008AF88 /* WVLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6715D2116F34FFD0008AF88 /* en */,
+			);
+			name = WVLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6715D2316F34FFD0008AF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D6715D2416F34FFD0008AF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6715D2616F34FFD0008AF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewLeak/WebViewLeak-Prefix.pch";
+				INFOPLIST_FILE = "WebViewLeak/WebViewLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6715D2716F34FFD0008AF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebViewLeak/WebViewLeak-Prefix.pch";
+				INFOPLIST_FILE = "WebViewLeak/WebViewLeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6715CFD16F34FFD0008AF88 /* Build configuration list for PBXProject "WebViewLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6715D2316F34FFD0008AF88 /* Debug */,
+				D6715D2416F34FFD0008AF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6715D2516F34FFD0008AF88 /* Build configuration list for PBXNativeTarget "WebViewLeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6715D2616F34FFD0008AF88 /* Debug */,
+				D6715D2716F34FFD0008AF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6715CFA16F34FFD0008AF88 /* Project object */;
+}
